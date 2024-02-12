@@ -2,10 +2,10 @@ import allure
 from kinopoisk_tests_suite.pages.web.base_page import kinopoisk
 
 
-@allure.epic('Base page')
-@allure.story('Open base page')
-@allure.title('Base page should be shown')
-@allure.feature('Base page')
+@allure.epic('Base_page')
+@allure.story('Open_base_page')
+@allure.title('Base_page_should_be_shown')
+@allure.feature('Base_page')
 @allure.label('microservice', 'Base page')
 @allure.label('owner', 'allure8')
 @allure.tag('smoke', 'regress', 'web', 'critical')

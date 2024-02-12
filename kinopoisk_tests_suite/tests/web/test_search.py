@@ -2,6 +2,15 @@ import allure
 from kinopoisk_tests_suite.pages.web.serach_field import search
 
 
+@allure.epic('Search')
+@allure.story('Find_movie')
+@allure.title('Find_movie_by_title')
+@allure.feature('Search')
+@allure.label('microservice', 'Search')
+@allure.label('owner', 'allure8')
+@allure.tag('regress', 'web', 'normal')
+@allure.severity('normal')
+@allure.label('layer', 'web')
 def test_find_movie_by_title():
     with allure.step("Открываем главную страницу"):
         search.open_main_page()
