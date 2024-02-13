@@ -39,7 +39,7 @@ def setup_browser():
     )
 
     browser.config.driver = driver
-    browser.config.base_url = 'https://hd.kinopoisk.ru/'
+    browser.config.base_url = 'https://start.ru/'
     browser.config.timeout = 10
     browser.config.window_width = 1920
     browser.config.window_height = 1080

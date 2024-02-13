@@ -19,7 +19,7 @@ class TestSearch:
     def selected_movie_should_be_visible(self):
         browser.element(
             '.VideoUnit_vline__slider__card__title__MoZVS .VideoUnit_title__J_lZy'
-        ).should(have.text('Олдбой'))
+        ).should(have.text('Трактат о бабочках'))
         return self
 
 
