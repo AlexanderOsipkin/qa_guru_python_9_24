@@ -18,6 +18,7 @@ def test_base_page():
         kinopoisk.kinopoisk_top_menu_shuld_be_visible()
 
 
+@allure.epic('Base_page')
 @allure.story('Watching now button')
 @allure.title('Button should be work')
 @allure.feature('Watching now')
@@ -34,6 +35,7 @@ def test_watching_now_button():
         kinopoisk.title_should_be_visible()
 
 
+@allure.epic('Base_page')
 @allure.story('Open promo page')
 @allure.title('Promo page should be shown')
 @allure.feature('Promo page')
