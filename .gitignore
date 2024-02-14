@@ -166,3 +166,6 @@ allure
 
 #credentinals
 .env
+
+#old code
+start_tests_suite
