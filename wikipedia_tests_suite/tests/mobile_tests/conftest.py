@@ -32,7 +32,6 @@ def mobile_management_android():
     yield
 
     attach.add_screenshot(browser)
-    attach.add_logs(browser)
     attach.add_html(browser)
     attach.add_bstack_video(browser)
 
