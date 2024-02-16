@@ -29,23 +29,18 @@
 
 ## Структура проекта
 ### Проект реализован с использованием
-|                                   Python                                    |                                   Pytest                                    |                                  PyCharm                                  |                                Selene                                |                                    Jenkins                                    |                           Allure TestOps                           |                                Telegram                                 |                                  Browserstack                                  |                                GitHub                                |                                Appium                                 |                                Selenium                                |
-|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|:------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:--------------------------------------------------------------------:|:---------------------------------------------------------------------:|:----------------------------------------------------------------------:|
-| <img src="/Images/python-original.svg" alt="Python" width="25" height="25"> | <img src="/Images/pytest-original.svg" alt="Pytest" width="25" height="25"> | <img src="/Images/PyCharm_Icon.svg" alt="Pycharm" width="25" height="25"> | <img src="/Images/selenoid.png" alt="Selene" width="25" height="25"> | <img src="/Images/jenkins-original.svg" alt="Jenkins" width="25" height="25"> | <img src="/Images/allure.png" alt="Allure" width="25" height="25"> | <img src="/Images/telegram.svg" alt="Telegram" width="25" height="25">  | <img src="/Images/Browserstack.svg" alt="Browserstack" width="25" height="25"> | <img src="/Images/GitHub.svg" alt="GitHub" width="25" height="25"> | <img src="/Images/Appium.svg" alt="Appium" width="25" height="25"> | <img src="/Images/selenium.png" alt="Selenium" width="25" height="25"> |
-
-
 <p align="center">
-<img width="5%" title="PyCharm" src="/Images/PyCharm_Icon.svg">
-<img width="5%" title="Python" src="/Images/python-original.svg">
-<img width="5%" title="Pytest" src="/Images/pytest-original.svg">
-<img width="5%" title="Selenium" src="/Images/selenium.png">
-<img width="5%" title="Selene" src="/Images/selenoid.png">
-<img width="5%" title="GitHub" src="/Images/GitHub.svg">
-<img width="5%" title="Jenkins" src="/Images/jenkins-original.svg">  
-<img width="5%" title="Allure TestOps" src="/Images/allure.png">
-<img width="5%" title="Telegram" src="/Images/telegram.svg">
-<img width="5%" title="Browserstack" src="/Images/Browserstack.svg"> 
-<img width="5%" title="Appium" src="/Images/Appium.svg"> 
+<img width="8%" title="PyCharm" src="/Images/PyCharm_Icon.svg">
+<img width="8%" title="Python" src="/Images/python-original.svg">
+<img width="8%" title="Pytest" src="/Images/pytest-original.svg">
+<img width="6%" title="Selenium" src="/Images/selenium.png">
+<img width="8%" title="Selene" src="/Images/selenoid.png">
+<img width="8%" title="GitHub" src="/Images/GitHub.svg">
+<img width="8%" title="Jenkins" src="/Images/jenkins-original.svg">  
+<img width="8%" title="Allure TestOps" src="/Images/allure.png">
+<img width="6%" title="Telegram" src="/Images/telegram.svg">
+<img width="8%" title="Browserstack" src="/Images/Browserstack.svg"> 
+<img width="6%" title="Appium" src="/Images/Appium.svg"> 
 </p>
 
 <a name="Jenkins">
