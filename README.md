@@ -1,8 +1,8 @@
 <h1 align="center">Проект по тестированию онлайн энциклопедии WikipediA
 <p align="center">
 <a href="https://www.wikipedia.org/" target="_blank">
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.citypng.com%2Fphoto%2F26907%2Fwikipedia-w-logo-hd-png&psig=AOvVaw12uSx1-z0bfMaf0UYY8kvN&ust=1708194116296000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNig8I29sIQDFQAAAAAdAAAAABAJ" 
-alt="METRO" width="128" height="64"> </a> 
+<img src="https://e7.pngegg.com/pngimages/981/599/png-clipart-edit-a-thon-wikipedia-logo-online-encyclopedia-others-text-logo-thumbnail.png" 
+alt="WikipediA" width="128" height="64"> </a> 
 </p></h1>
 
 ### Список реализованных автотестов
