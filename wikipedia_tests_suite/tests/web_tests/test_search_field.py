@@ -8,7 +8,7 @@ from wikipedia_tests_suite.pages.web_pages.base_page import base_page
 @allure.title('Find article by title')
 @allure.feature('Search')
 @allure.label('microservice', 'Search')
-@allure.label('owner', 'allure8')
+@allure.label('owner', 'Alexander Osipkin')
 @allure.tag('regress', 'web', 'normal')
 @allure.severity('normal')
 @allure.label('layer', 'web')

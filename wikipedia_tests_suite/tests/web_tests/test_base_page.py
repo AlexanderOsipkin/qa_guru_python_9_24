@@ -7,7 +7,7 @@ from wikipedia_tests_suite.pages.web_pages.base_page import base_page
 @allure.title('Base page should be shown')
 @allure.feature('Base page')
 @allure.label('microservice', 'Base page')
-@allure.label('owner', 'allure8')
+@allure.label('owner', 'Alexander Osipkin')
 @allure.tag('smoke', 'regress', 'web', 'critical')
 @allure.severity('critical')
 @allure.label('layer', 'web')

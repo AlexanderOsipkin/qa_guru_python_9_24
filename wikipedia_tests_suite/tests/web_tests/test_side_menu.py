@@ -7,7 +7,7 @@ from wikipedia_tests_suite.pages.web_pages.base_page import base_page
 @allure.title('Content button should be work')
 @allure.feature('Content button')
 @allure.label('microservice', 'base page')
-@allure.label('owner', 'allure8')
+@allure.label('owner', 'Alexander Osipkin')
 @allure.tag('regress', 'web', 'normal')
 @allure.severity('normal')
 def test_content_button():
@@ -30,7 +30,7 @@ def test_content_button():
 @allure.title('Featured button should be work')
 @allure.feature('Featured button')
 @allure.label('microservice', 'base page')
-@allure.label('owner', 'allure8')
+@allure.label('owner', 'Alexander Osipkin')
 @allure.tag('regress', 'web', 'normal')
 @allure.severity('normal')
 def test_featured_button():
@@ -53,7 +53,7 @@ def test_featured_button():
 @allure.title('Randompage button should be work')
 @allure.feature('Randompage button')
 @allure.label('microservice', 'base page')
-@allure.label('owner', 'allure8')
+@allure.label('owner', 'Alexander Osipkin')
 @allure.tag('regress', 'web', 'normal')
 @allure.severity('normal')
 def test_randompage_button():
@@ -76,7 +76,7 @@ def test_randompage_button():
 @allure.title('Currentevents button should be work')
 @allure.feature('Currentevents button')
 @allure.label('microservice', 'base page')
-@allure.label('owner', 'allure8')
+@allure.label('owner', 'Alexander Osipkin')
 @allure.tag('regress', 'web', 'normal')
 @allure.severity('normal')
 def test_currentevents_button():
