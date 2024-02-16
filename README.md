@@ -7,9 +7,10 @@
 ## Содержание
 + [Тест-кейсы](#Тесты)
 + [Технологии и инструменты](#Технологии)
-+ [Запуск автотестов из Jenkins для web](#Jenkins_web) 
-+ [Оповещение о результатах через Telegram-бот](#Telegram) 
++ [Запуск автотестов из Jenkins для web](#Jenkins_web)
++ [локальный запуск автотестов](#локальный_запуск)
 + [Отчеты о прохождении тестов Allure TestOps](#Allure)
++ [Оповещение о результатах через Telegram-бот](#Telegram) 
 + [Примеры прохождения тестов](#Примеры) 
 
 <a name="Тесты">
@@ -30,27 +31,64 @@
 ## Структура проекта
 ### Проект реализован с использованием
 <p align="center">
-<img width="8%" title="PyCharm" src="/Images/PyCharm_Icon.svg">
-<img width="8%" title="Python" src="/Images/python-original.svg">
-<img width="8%" title="Pytest" src="/Images/pytest-original.svg">
-<img width="8%" title="Selenium" src="/Images/selenium.png">
-<img width="8%" title="Selene" src="/Images/selenoid.png">
-<img width="8%" title="GitHub" src="/Images/GitHub.svg">
-<img width="8%" title="Jenkins" src="/Images/jenkins-original.svg">  
-<img width="8%" title="Allure TestOps" src="/Images/allure.png">
-<img width="8%" title="Telegram" src="/Images/telegram.svg">
-<img width="8%" title="Browserstack" src="/Images/Browserstack.svg"> 
-<img width="8%" title="Appium" src="/Images/Appium.svg"> 
+<img width="6%" title="PyCharm" src="/Images/PyCharm_Icon.svg">
+<img width="6%" title="Python" src="/Images/python-original.svg">
+<img width="6%" title="Pytest" src="/Images/pytest-original.svg">
+<img width="6%" title="Selenium" src="/Images/selenium.png">
+<img width="6%" title="Selene" src="/Images/selenoid.png">
+<img width="6%" title="GitHub" src="/Images/GitHub.svg">
+<img width="6%" title="Jenkins" src="/Images/jenkins-original.svg">  
+<img width="6%" title="Allure TestOps" src="/Images/allure.png">
+<img width="6%" title="Telegram" src="/Images/telegram.svg">
+<img width="6%" title="Browserstack" src="/Images/Browserstack.svg"> 
+<img width="6%" title="Appium" src="/Images/Appium.svg"> 
 </p>
 
-<a name="Jenkins">
+<a name="Jenkins_web">
 
-## Запуск автотестов из Jenkins
+## Запуск автотестов из Jenkins (web)
 Для удаленного запуска автотестов в <a href="https://jenkins.autotests.
 cloud/job/C09-AlexanderOsipkin-unit24/" target="_blank">Jenkins</a> Задача создана, 
 настроена и связана с репозиторием в GitHub.
-<img width="1437" alt="image" src="">
+<img src="/Images/Screenshots/img1.png">
 
+
+<a name="локальный_запуск">
+
+## Локальный запуск автотестов
+1. Клонируйте репозиторий
+```ruby
+gh repo clone AlexanderOsipkin/qa_guru_python_9_15
+```
+2. Создайте и активируйте виртуальное окружение
+  ```ruby
+  python -m venv .venv
+  source .venv/bin/activate
+  ```
+3. Установите зависимости с помощью pip
+  ```ruby
+  pip install -r requirements.txt
+  ```
+4. Запустите автотесты 
+  ```ruby
+  pytest -sv
+  ```
+5. Получите отчёт allure
+```ruby
+allure serve allure-results
+``` 
+
+
+<a name="TestOPS">
+  
+## Интеграция с Allure TestOps
+Настроена интеграция Jenkins с Allure TestOPS.
+
+<img src="/Images/Screenshots/img1.png">
+
+Можно посмотреть историю выполненных прогонов:
+<img src="/Images/Screenshots/img1.png">
+<img src="/Images/Screenshots/img1.png">
 
 
 <a name="Telegram">
@@ -58,25 +96,10 @@ cloud/job/C09-AlexanderOsipkin-unit24/" target="_blank">Jenkins</a> Задача
 ## Уведомление о результатах тестирования через Telegram-бот
 После завершения тестов приходит оповещение в Telegram с помощью заранее созданного Telegram-бота.
 
-<img width="349" alt="image" src="">
-
-
-
-<a name="TestOPS">
-  
-## Интеграция с Allure TestOps
-Настроена интеграция Jenkins с Allure TestOPS.
-При первом после интеграции прохождении тестов в Jenkins, в Allure TestOps были 
-автоматически созданы такие тест-кейсы:
-
-<img width="1432" alt="image" src="">
-
-Можно посмотреть историю выполненных прогонов:
-<img width="1435" alt="image" src="">
-<img width="1432" alt="image" src="">
+<img src="/Images/Screenshots/img1.png">
 
 <a name="Тесты">
 
-## Видео прохождения web автотеста
+## Видео прохождения автотеста (web)
 
-## Видео прохождения mobile автотеста
+## Видео прохождения автотеста (mobile)
