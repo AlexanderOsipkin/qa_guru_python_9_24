@@ -1,8 +1,8 @@
-<h1 align="center">Проект по тестированию онлайн энциклопедии WikipediA
+<h1 align="center">Проект по тестированию онлайн энциклопедии
 <p align="center">
 <a href="https://www.wikipedia.org/" target="_blank">
 <img src="https://e7.pngegg.com/pngimages/981/599/png-clipart-edit-a-thon-wikipedia-logo-online-encyclopedia-others-text-logo-thumbnail.png" 
-alt="WikipediA" width="128" height="64"> </a> 
+alt="WikipediA" width="256" height="512"> </a> 
 </p></h1>
 
 ### Список реализованных автотестов
