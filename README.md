@@ -1,7 +1,7 @@
 <h1 align="center">Проект по тестированию онлайн энциклопедии
 <p align="center">
 <a href="https://www.wikipedia.org/" target="_blank">
-<img src="/Images/wiki_logo.png" alt="WikipediA" width="334,5" height="384"> </a> 
+<img src="/Images/wiki_logo.png" alt="WikipediA" width="167" height="192"> </a> 
 </p></h1>
 
 ### Список реализованных автотестов
