@@ -33,14 +33,14 @@
 <img width="8%" title="PyCharm" src="/Images/PyCharm_Icon.svg">
 <img width="8%" title="Python" src="/Images/python-original.svg">
 <img width="8%" title="Pytest" src="/Images/pytest-original.svg">
-<img width="6%" title="Selenium" src="/Images/selenium.png">
+<img width="8%" title="Selenium" src="/Images/selenium.png">
 <img width="8%" title="Selene" src="/Images/selenoid.png">
 <img width="8%" title="GitHub" src="/Images/GitHub.svg">
 <img width="8%" title="Jenkins" src="/Images/jenkins-original.svg">  
 <img width="8%" title="Allure TestOps" src="/Images/allure.png">
-<img width="6%" title="Telegram" src="/Images/telegram.svg">
+<img width="8%" title="Telegram" src="/Images/telegram.svg">
 <img width="8%" title="Browserstack" src="/Images/Browserstack.svg"> 
-<img width="6%" title="Appium" src="/Images/Appium.svg"> 
+<img width="8%" title="Appium" src="/Images/Appium.svg"> 
 </p>
 
 <a name="Jenkins">
