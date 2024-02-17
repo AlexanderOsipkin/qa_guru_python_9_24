@@ -7,7 +7,7 @@
 ## Содержание
 + [Тест-кейсы](#Тесты)
 + [Технологии и инструменты](#Технологии)
-+ [Запуск автотестов из Jenkins для web](#Jenkins_web)
++ [Запуск автотестов из Jenkins](#Jenkins_web)
 + [Локальный запуск автотестов](#локальный_запуск)
 + [Отчеты о прохождении тестов Allure TestOps](#Allure)
 + [Оповещение о результатах через Telegram-бот](#Telegram) 
@@ -46,13 +46,13 @@
 
 <a name="Jenkins_web">
 
-## Запуск автотестов из Jenkins (web)
-Для удаленного запуска автотестов в <a href="https://jenkins.autotests.
-cloud/job/C09-AlexanderOsipkin-unit24/" target="_blank">Jenkins</a> Задача создана, 
-настроена и связана с репозиторием в GitHub.
-
+## Запуск автотестов из Jenkins
+1. <a href="https://jenkins.autotests.cloud/job/C09-AlexanderOsipkin-unit24/" target="_blank">Открыть проект в Jenkins</a>
 <img src="/Images/Screenshots/img1.png">
-
+2. Нажать "Build with Parameters"
+<img src="/Images/Screenshots/img2.png">
+3. В поле "COMMENT" ввести комментарий и нажать на кнопку "Build"
+<img src="/Images/Screenshots/img3.png">
 
 <a name="локальный_запуск">
 
@@ -83,25 +83,25 @@ allure serve allure-results
 <a name="TestOPS">
   
 ## Интеграция с Allure TestOps
-Настроена интеграция Jenkins с Allure TestOPS.
-
-<img src="/Images/Screenshots/img1.png">
-
-Можно посмотреть историю выполненных прогонов:
-<img src="/Images/Screenshots/img1.png">
-<img src="/Images/Screenshots/img1.png">
-
+<a href="https://allure.autotests.cloud/project/4043/dashboards" target="_blank">Настроена интеграция с Allure TestOPS</a>
+1. Автоматически-сгенерированные тест-кейсы:
+<img src="/Images/Screenshots/img4.png">
+2. История выполненных прогонов
+<img src="/Images/Screenshots/img5.png">
+<img src="/Images/Screenshots/img6.png">
 
 <a name="Telegram">
   
 ## Уведомление о результатах тестирования через Telegram-бот
 После завершения тестов приходит оповещение в Telegram с помощью заранее созданного Telegram-бота.
 
-<img src="/Images/Screenshots/img1.png">
+<img src="/Images/Screenshots/telegram-allure.png">
 
 <a name="Примеры">
 
 ## Видео прохождения автотестов
 ### WEB
+<img src="/Images/Videos/web-test.gif">
 
 ### mobile
+<img src="/Images/Videos/mobile-test.gif">
