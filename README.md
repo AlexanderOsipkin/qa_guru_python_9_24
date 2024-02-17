@@ -15,6 +15,7 @@
 
 <a name="Тесты">
 
+## Тест-кейсы
 ### Список реализованных автотестов для web
 - Тестирование главной страницы
 - Тестирование поисковой строки
@@ -78,7 +79,6 @@ gh repo clone AlexanderOsipkin/qa_guru_python_9_24
 ```ruby
 allure serve allure-results
 ``` 
-
 
 <a name="TestOPS">
   
