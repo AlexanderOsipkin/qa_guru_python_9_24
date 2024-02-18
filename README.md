@@ -1,4 +1,4 @@
-<h1 align="center">Проект по тестированию онлайн энциклопедии
+<h1 align="center">Проект по автоматизации тестирования на web и mobile
 <p align="center">
 <a href="https://www.wikipedia.org/" target="_blank">
 <img src="/Images/wiki_logo.png" alt="WikipediA" width="167" height="192"> </a> 
